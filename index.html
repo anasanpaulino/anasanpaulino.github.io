@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio de Ana San Paulino</title>
+        <script src="https://kit.fontawesome.com/ce56ab6dc0.js" crossorigin="anonymous"></script>
+        <!--Estos son los links de ls página web google fonts para añadir tipografías que no tenga el programa-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+        <!--Esto sirve para poder crear el CSS de forma externa
+        El reel es el tipo de documento, en este caso una hoja de estilo 
+        y el href es donde se encuenta-->
+        <link rel="stylesheet" href="./css/estilos.css">
+
+    </head>
+    <body>
+        <!--Menú de navegación-->
+        <nav>
+            <ul>
+                <li><a href="#inicio"><strong>SOBRE MÍ</strong></a></li>
+                <li><a href="#proyectos"><strong>PROYECTOS</strong></a></li>
+                <li><img src="./Photos/logo.png" alt="Foto logo" height="22"></li>
+                <li><a href="#experiencia"><strong>EXPERIENCIA</strong></a></li>
+                <li><a href="#contacto"><strong>CONTACTO</strong></a></li>
+            </ul>
+        </nav>
+        <article>
+        <!--Primera sección: Sobre mí-->
+        <div id="boton-flotante">    
+        <section id="inicio">
+                <div id="pin01" class="element"><h2 class="handlee-regular" id="nombre">Ana San Paulino</h2>
+                    <!--En las imágenes el src es la ruta en la que está guardada y el alt la información no visible 
+                    para lectores para personas con visión reducida-->
+                    <!--height sirve para redimensionar imágenes, siempre en píxeles-->
+                    <img src="./Photos/portada.png" alt="Foto Ana San Paulino" height="150" id="mi-imagen">   
+                    <ul>
+                        <li><a href="https://open.spotify.com/user/31bol6xuzj7qlalxufvaaielqtdq?si=NqjEynSMT8i5y7FGRu9iOw" target="_blank">
+                        <i class="fa-brands fa-spotify"></i></a></li>
+                        <li><a href="https://www.instagram.com/aspc_escritora?utm_source=qr" target="_blank">
+                        <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ana-san-paulino-9188a5159/" target="_blank">
+                        <i class="fa-brands fa-square-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div id="pin02" class="element"><p id="presentación"><span class="texto-azul"><strong>Construyo experiencias digitales con pulso humano.</span></strong></p>
+                    <p>A mis 26 años, estoy cerrando la brecha entre la <span class="texto-azul"><strong>mente humana</strong></span>
+                    y el código limpio.<br>
+                    <p>Con formación en <span class="texto-azul"><strong>Psicología</strong></span> y pasión por el <span class="texto-azul">
+                    <strong>Desarrollo</strong>.</span><br></p>
+                    <p> No solo creo sitios web: diseño entornos que respetan cómo la gente piensa y siente realmente.</p>
+                    <p><cite>Lógica en el editor. Empatía en la interfaz.</cite></p></div>
+            </section>
+            <div id="pin03" class="masinfo"><button type="button">MAS INFO</button></div>
+            </div>
+                <!--FIN primera sección: Sobre mí-->
+            <!--Inicio segunda sección: porfolio-->
+            <section class="fondo-blanco" id="proyectos">
+                <h2 class="handlee-regular">Projects</h2>
+                <div class="filaportfolio">
+                    <div class="card">
+                        <img src="./Photos/card1.png" alt="psicología" height="100">
+                        <h3>psicología</h3>
+                        <h4>Carrera</h4>
+                        <div class="sep"></div>
+                        <p>Graduada en psicología, especializada en psicopatología Infantojuvenil y con el máster en formación del profesorado.</p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./Photos/card2.jpg" alt="Escritura" height="100">
+                        <h3>escritura</h3>
+                        <h4>Ramé</h4>
+                        <div class="sep"></div>
+                        <p>Mi primer libro publicado, una recopilación de poemas autobiográficos, escritos para quedarse en un cajón, destinados
+                            a llegar a las estanterías de los corazones que no se achantan ante la vida.
+                        </p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./Photos/card3.jpg" alt="AI" height="100">
+                        <h3>AI</h3>
+                        <h4>Aplicación con Lovable</h4>
+                        <div class="sep"></div>
+                        <p>La inteligencia artificial ha de ayudarnos a llegar, nunca hacernos el trabajo. Sigamos manteniendo la idea del copilotaje,
+                            y no dejemos que mate nuestra curiosidad y hambre por aprender.
+                        </p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                    <div class="card">
+                        <img src="./Photos/card4.jpg" alt="code" height="100">
+                        <h3>programación</h3>
+                        <h4>Python</h4>
+                        <div class="sep"></div>
+                        <p>Lenguaje que nunca pensé que aprendería, pero qué bonitos son los caminos de la vida, que por un reto laboral empecé a estudiarlo,
+                            y ahora continúo aprendiedno por placer.
+                        </p>
+                        <div class="masinfo"><button type="button">MAS INFO</button></div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin segunda sección: porfolio-->
+            <!--Inicio tercera sección: experiencia-->
+            <div id="titulo-experiencia"><h2 class="handlee-regular">Experiencia</h2></div>
+            <section id="experiencia">
+                <div id="pin04" class="descripción">
+                    <h3>Content Creator</h3>
+                    <h4>2023-2026</h4>
+                    <p>Creadora de contenido para una empresa de robótica educativa</p>
+                </div>
+                <div id="pin05" class="descripción">
+                    <h3>Asesora Pedagógica</h3>
+                    <h4>2023-2026</h4>
+                    <p>Formación y acompañamiento a docentes en robótica educativa</p>
+                </div>
+                <div id="pin06" class="descripción">
+                    <h3>Orientadora</h3>
+                    <h4>2022-2023</h4>
+                    <p>Psicóloga en prácticas referente del grupo de 4º de ESO en un instituto en Barcelona</p>
+                </div>
+                <div id="pin07" class="descripción">
+                    <h3>Docente de refuerzo</h3>
+                    <h4>2021-2023</h4>
+                    <p>Docente de refuerzo para secundaria, de preparación para la selectividad en Química para ciclos y docente de catalán para familias</p>
+                </div>
+            </section>
+        <!--FIN tercera sección: experiencia-->
+        <!--Inicio cuarta sección: Contacto-->
+        <section class="fondo-blanco" id="contacto">
+                <h2 class="handlee-regular"> Contacto</h2>
+                <form action="#">
+                    <div class="itemform">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" minlength="2" maxlength="30" size="14" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" minlength="2" maxlength="60" size="14" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" name="correo" minlength="2" maxlength="30" size="14" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="15" rows="7"></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="botón" value="CONTACTAR">
+                    </div>
+                </form>
+                </section>
+       </article>
+    <!--Pie de página-->
+    <footer></footer>
+    </body>
+</html>
