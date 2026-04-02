@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue
+   
+    }
+
+section{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #002fff;
+    background-color: black;
+    padding: 2px;
+    text-align: center;
+    font-family: "Handlee", cursive;
+    font-size: 10px;
+}
+
+nav ul{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#inicio {
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: 200px 1fr; /* primera columna fija y pequeña, segunda ocupa el resto */
+    gap: 20px;
+    max-width: 900px;
+}
+
+#pin01{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+  
+}
+
+#pin02{
+    grid-column: 2 / 3;  /* de la línea 2 a la 3 = segunda columna */
+    grid-row: 1 / 2;     /* primera fila */
+}
+
+#pin01, #pin02 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#boton-flotante{
+    display: flex;
+    align-items: center;
+}
+
+#nombre{
+    clear: both;
+}
+
+ul{
+    margin-top: 9px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:any-link{
+    color: aliceblue;
+}
+
+a:-moz-any-link{
+    color: aliceblue;
+}
+
+a:-webkit-any-link{
+    color: aliceblue;
+}
+
+a:hover{
+    color: #002fff;
+}
+
+i:hover{
+    color: #002fff;
+}
+
+li{
+    float: left;
+    margin-right: 5px;
+}
+
+#presentación{
+    margin-top: 40px;
+    clear: both;
+
+}
+
+/* Esto es una class en html (un identificador para varias categorías y se escribe con un . */
+.texto-azul{
+    color:#002fff
+
+}
+
+cite{
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+}
+
+/* Esto es un id en html (un identificador para una categoría y se escribe con un # */
+#mi-imagen{
+  border: 3px solid #002fff;
+}
+
+.fondo-blanco{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    color:rgb(0, 0, 0)
+}  
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.filaportfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: rgb(228, 233, 237);
+    border-radius: 15px;
+}
+
+.card img{
+   margin: 7px 75px
+   
+}
+
+h3{
+    color: #002fff;
+}
+
+h4{
+    margin: 0px 5px 5px 0px;
+}
+
+p{
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+
+.card .masinfo{
+    margin-top: auto; /* empuja el botón al fondo */
+    margin-bottom: 15px;
+    padding: 0px 15px;
+}
+
+.masinfo button{
+    color: aliceblue;
+    background-color: #002fff;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+
+.card h3, .card h4, .card p, .card .masinfo{
+    padding: 0px 15px;
+}
+
+.card .sep{
+    margin: 0px 5px 5px 0px;
+    border: 1px solid #002fff
+}
+
+#titulo-experiencia{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#experiencia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin:auto;
+    padding-bottom: 24px;
+}
+
+.descripción{
+     background-color: rgb(47, 46, 46);
+     padding: 5%;
+     border-radius: 15px;
+     align-self: stretch;
+}
+
+/* FORMULARIO */
+
+#contacto{
+    margin-bottom: 20px;
+}
+
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    gap: 13px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.itemform label{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.itemform input, .itemform textarea{
+    border: 15px;
+    border: 1px solid #000;
+}
+
+input[type="submit"]{
+    background-color: #002fff;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    grid-column: 2/3;
+    justify-self: end;
+}
